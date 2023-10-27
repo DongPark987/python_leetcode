@@ -2,6 +2,7 @@ from typing import List
 
 
 class Solution:
+    def hello(self):
     def find132pattern(self, nums: List[int]) -> bool:
         myStack = []
         for i in nums:
@@ -16,7 +17,7 @@ class Solution:
 
 
 a = Solution()
-
+asdfasdf
 nums = [3, 5, 0, 3, 4]
 
 print(a.find132pattern(nums))
