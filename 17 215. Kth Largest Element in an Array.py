@@ -36,7 +36,7 @@ class Solution:
             print(nums)
 
 
-        pass
+        pass1
 
 
 a = Solution()
