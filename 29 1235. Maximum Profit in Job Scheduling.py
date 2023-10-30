@@ -8,20 +8,13 @@ import time
 
 
 class Solution:
-    def maxArea(self, height: List[int]) -> int:
-        left, right = 0, len(height) - 1
-        ans = 0
-        while left < right:
-            ans = max(ans, (right - left) * min(height[left], height[right]))
-            if height[left] > height[right]:
-                right -= 1
-            else:
-                left += 1
-        return ans
+    def jobScheduling(self, startTime: List[int], endTime: List[int], profit: List[int]) -> int:
 
 
 a = Solution()
 
-height = [1, 2, 4, 3]
+startTime = [1,2,3,3]
+endTime = [3,4,5,6]
+profit = [50,10,40,70]
 
-print(a.maxArea(height))
+print(a.jobScheduling(startTime,endTime,profit))
