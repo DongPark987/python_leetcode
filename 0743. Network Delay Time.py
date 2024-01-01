@@ -26,6 +26,8 @@ class Solution:
             return Max
 
 
+
+
 a = Solution()
 
 times = [[2, 1, 1], [2, 3, 1], [3, 4, 1]]
